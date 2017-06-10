@@ -17,7 +17,7 @@ Considering this "maze under construction" where every " - " is a node.
 | - | - | - | - | - | - |
 +---+---+---+---+---+---+ 13
 
-We add the middle node to the vector 'a' which has all the nodes that have neighbours that are not in 'a'.
+We add the center node to the vector 'a' which has all the nodes that have neighbours that are not in 'a'.
 while a is not empty, we choose a random node from it and put in a vector 'vec' all its adiacent nodes that are not in 'a'.
 We choose randomly a node from 'vec' and add him to 'a' while "breaking the wall between these nodes.
 
